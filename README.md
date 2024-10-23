@@ -137,4 +137,4 @@ O **Task Service** gerencia tarefas e também está registrado no **Eureka**.
 
 ## Autor
 
-Desenvolvido por [Guilherme da Silveira Cantoni].
+Desenvolvido por Guilherme da Silveira Cantoni.
