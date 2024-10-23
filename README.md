@@ -28,7 +28,7 @@ Cada microserviço é implementado como um contêiner Docker, com configuração
 - **API Gateway**: `8080`
 - **User Service**: `8081`
 - **Task Service**: `8082`
-- **Notification Service**: `8083`
+- **Notification Service**: `8084`
 
 ## Como Executar o Projeto
 
@@ -71,7 +71,7 @@ Cada microserviço está configurado com um **healthcheck** que pode ser verific
 - **Eureka Server**: `http://localhost:8761/actuator/health`
 - **API Gateway**: `http://localhost:8080/actuator/health`
 - **User Service**: `http://localhost:8081/actuator/health`
-- **Notification Service**: `http://localhost:8083/actuator/health`
+- **Notification Service**: `http://localhost:8084/actuator/health`
 - **Task Service**: `http://localhost:8082/actuator/health`
 
 ### Parar os Serviços
@@ -115,10 +115,10 @@ O **User Service** é um serviço registrado no **Eureka** que fornece operaçõ
 
 O **Notification Service** é responsável por enviar notificações e está registrado no **Eureka**.
 
-- Porta: `8083`
+- Porta: `8084`
 - Configuração específica:
   - `SPRING_APPLICATION_NAME=notification-service`
-  - `SERVER_PORT=8083`
+  - `SERVER_PORT=8084`
 
 ### Task Service
 
